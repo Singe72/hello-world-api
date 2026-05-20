@@ -9,4 +9,6 @@ COPY . .
 
 EXPOSE 6767
 
+ENV PORT=6767
+
 CMD ["node", "index.js"]
